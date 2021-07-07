@@ -1,3 +1,4 @@
+/*****************************************************/
 #include <stdio.h>
 #ifndef BUTTON_H
 #include "Button.h"
@@ -10,15 +11,19 @@
 #ifndef STUDENT_H
 #include "Student.h"
 #endif // STUDENT_H
-int finish = 1;
+/*****************************************************/
+char Run = 1;
+/*****************************************************/
 int main()
 {
     DISP_Init();
     BUTTON_Init();
     STUDENT_Init();
-    while(finish){
+    while(Run){
         BUTTON_Update();
         DISP_Update();
     }
     return 0;
 }
+/*****************************************************/
+

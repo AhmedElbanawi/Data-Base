@@ -5,7 +5,7 @@
 
 1625578594 d:\aelbanawi\2021 projects\data base\app\main\main\button.h
 
-1625645292 source:d:\aelbanawi\2021 projects\data base\app\main\main\display.c
+1625651764 source:d:\aelbanawi\2021 projects\data base\app\main\main\display.c
 	"Display.h"
 	<windows.h>
 	<stdio.h>
@@ -14,7 +14,7 @@
 
 1625602209 d:\aelbanawi\2021 projects\data base\app\main\main\display.h
 
-1625645292 source:d:\aelbanawi\2021 projects\data base\app\main\main\main.c
+1625651764 source:d:\aelbanawi\2021 projects\data base\app\main\main\main.c
 	<stdio.h>
 	"Button.h"
 	"Display.h"

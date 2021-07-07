@@ -10,7 +10,7 @@
 #ifndef STUDENT_H
 #include "Student.h"
 #endif // STUDENT_H
-extern int finish;
+extern char Run;
 /*****************************************************/
 MESSAGE_t Message_State = MESSAGE_ADD_A_STUDENT;
 /*****************************************************/
@@ -211,7 +211,7 @@ void DISP_Update(void){
                 case MESSAGE_EXIT:
                      system("cls");
                      system("color 0F");
-                     finish = 0;
+                     Run = 0;
                      break;
                 case MESSAGE_ADD_A_STUDENT:
                      system("cls");
