@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1625578594 source:d:\aelbanawi\2021 projects\data base\app\main\main\button.c
+	"Button.h"
+	<conio.h>
+
+1625578594 d:\aelbanawi\2021 projects\data base\app\main\main\button.h
+
+1625645292 source:d:\aelbanawi\2021 projects\data base\app\main\main\display.c
+	"Display.h"
+	<windows.h>
+	<stdio.h>
+	"Button.h"
+	"Student.h"
+
+1625602209 d:\aelbanawi\2021 projects\data base\app\main\main\display.h
+
+1625645292 source:d:\aelbanawi\2021 projects\data base\app\main\main\main.c
+	<stdio.h>
+	"Button.h"
+	"Display.h"
+	"Student.h"
+	<windows.h>
+	"Student.h"
+
+1625602208 d:\aelbanawi\2021 projects\data base\app\main\main\student.h
+
+1625648834 source:d:\aelbanawi\2021 projects\data base\app\main\main\student.c
+	"Student.h"
+	<stdio.h>
+
